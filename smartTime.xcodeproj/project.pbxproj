@@ -15,6 +15,7 @@
 		86D6AA541D2F8EFF00731622 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86D6AA521D2F8EFF00731622 /* LaunchScreen.storyboard */; };
 		86D6AA5F1D2F8EFF00731622 /* smartTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D6AA5E1D2F8EFF00731622 /* smartTimeTests.m */; };
 		86D6AA6A1D2F8EFF00731622 /* smartTimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D6AA691D2F8EFF00731622 /* smartTimeUITests.m */; };
+		86D6AA791D2F8F2E00731622 /* NSString+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D6AA781D2F8F2E00731622 /* NSString+Time.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		86D6AA651D2F8EFF00731622 /* smartTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86D6AA691D2F8EFF00731622 /* smartTimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = smartTimeUITests.m; sourceTree = "<group>"; };
 		86D6AA6B1D2F8EFF00731622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86D6AA771D2F8F2E00731622 /* NSString+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Time.h"; sourceTree = "<group>"; };
+		86D6AA781D2F8F2E00731622 /* NSString+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Time.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				86D6AA521D2F8EFF00731622 /* LaunchScreen.storyboard */,
 				86D6AA551D2F8EFF00731622 /* Info.plist */,
 				86D6AA441D2F8EFE00731622 /* Supporting Files */,
+				86D6AA771D2F8F2E00731622 /* NSString+Time.h */,
+				86D6AA781D2F8F2E00731622 /* NSString+Time.m */,
 			);
 			path = smartTime;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86D6AA791D2F8F2E00731622 /* NSString+Time.m in Sources */,
 				86D6AA4C1D2F8EFF00731622 /* ViewController.m in Sources */,
 				86D6AA491D2F8EFF00731622 /* AppDelegate.m in Sources */,
 				86D6AA461D2F8EFE00731622 /* main.m in Sources */,
