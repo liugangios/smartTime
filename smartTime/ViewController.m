@@ -17,8 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSString *time = @"1467965120";//时间戳
-    
-    NSString *smartTime = [time smartTime];
+    NSString *smartTime = [time smartTime];//处理好的时间
     NSLog(@"%@",smartTime);
 }
 
